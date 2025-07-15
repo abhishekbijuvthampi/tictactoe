@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="menuIcon">
+        <a href="#" onclick="openMenu()"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#7a7a7a"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+    </div>
+    <section class = "game">
+        <div class="menu"> 
+            <h1 id="winText">Winner</h1>
+            <button onclick="resetGame()">Restart</button>
+            <button onclick= "exitMenu()">Exit</button>
+        </div>
+        <div class = "gameBox">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+    </section>
+</body>
+</html>
