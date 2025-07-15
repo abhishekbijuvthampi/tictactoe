@@ -33,7 +33,7 @@ button{
     font-weight: bolder;
     transition: transform .4s ease-in-out;
     transition: background-color .4s ease-out;
-    font-size: xx-large;
+    font-size: clamp(4rem,4rem,6rem);
 }
 button.Oplayer{
     color: rgb(179, 103, 103);
